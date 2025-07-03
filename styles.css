@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-all{
+    display:flex;
+    flex-direction: column;
+    margin:30px;
+    background-color: lightgrey;
+    height: 700px;
+    width:500px;
+    border-radius: 15px;
+    padding:20px;
+}
+
+.container-screen{
+    background-color:black;
+    height:100px;
+    margin:10px;
+    margin-bottom:20px;
+    border-radius: 25px;
+    color:white;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding:15px;
+}
+#outputScreen{
+    margin:10px;
+    color:white;
+    font-size:32px;
+    overflow: hidden;
+    direction:rtl;
+}
+.container-allButtons{
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+.operator, .number{
+    width: 115px;       
+    height: 100px; 
+    border-radius:50px;
+    font-size: 32px;
+}
+.operator{
+    background-color:rgb(221, 233, 134);
+}
+.number{
+    background-color: rgb(150, 150, 240);
+}
+#delete{
+    background-color:rgb(245, 192, 192);
+}
+#equal{
+    background-color:rgb(167, 240, 172);
+}
