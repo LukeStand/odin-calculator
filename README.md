@@ -25,6 +25,11 @@ more mathematical operations
 
 
 
+July 4th log#2:
+
+Found that brackets were difficult to handle and that converting to postfix first may give a better way to evalulate.
+
+
 
 
 

@@ -36,7 +36,6 @@ body{
     color:white;
     font-size:32px;
     overflow: hidden;
-    direction:rtl;
 }
 .container-allButtons{
     display:flex;
