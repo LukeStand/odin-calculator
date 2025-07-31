@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'screen';
+    src: url("./digital-7.ttf");
+}
 *{
     box-sizing: border-box;
     margin:0;
@@ -30,11 +34,12 @@ body{
     justify-content: right;
     align-items: center;
     padding:15px;
+    font-family:screen;
+    font-size:5rem;
 }
 #outputScreen{
     margin:10px;
     color:white;
-    font-size:32px;
     overflow: hidden;
 }
 .container-allButtons{

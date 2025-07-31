@@ -1,4 +1,7 @@
 # odin-calculator
+
+INTRO/DESCRIPTION:
+
 making a calculator
 
 July 2nd log#1:
@@ -29,6 +32,20 @@ July 4th log#2:
 
 Found that brackets were difficult to handle and that converting to postfix first may give a better way to evalulate.
 
+July 12th log#3:
+
+used postfix to evalulate expressions. Converted infix to postfix then evalulated found this was cleaner method and easier to think through. Used parseFloat to ensure that decimals were handled and automatic conversion to integer was not happening. Everything now seems to be working correctly currently will now attempt to include parenthesis. Will do this by adding a few ifs and a loop to pop everyhting in completed brackets. 
+Will need to check for unclosed parenthesis ie syntax error, on that note also need to implement many other syntax error checks.
+
+current todo: 
+1. syntax error checks
+2. implement the decimal for user use
+3. implement ans and display what ans is currently above display screen
+4. implement parenthesis
+5. check what exception syntax is for js
+
+July 30th log#4
+fixing bug and adding small features. Skipped this part becuase i got board but shouldn't leave it incomplete.
 
 
 
